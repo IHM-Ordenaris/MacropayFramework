@@ -1,0 +1,6 @@
+framework module MacropayFramework {
+  umbrella header "MacropayFramework.h"
+  export *
+
+  module * { export * }
+}
