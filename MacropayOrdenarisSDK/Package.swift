@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MacroPayOrdenarisSDK",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v14)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -21,8 +21,8 @@ let package = Package(
             name: "MacropayFramework",
             path: "./FrameworkExample.xcframework"
         ),
-        //.target(
-        //    name: "MacroPayOrdenarisSDK"),
+        .target(
+            name: "MacroPayOrdenarisSDK"),
 
     ]
 )
